@@ -1,0 +1,59 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+## API 2
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+##API 3 /user/tweets/feed/
+
+GET http://localhost:3000/user/tweets/feed/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTI3NjE3NzR9.RrrSy6zW7wseUb6iKe4TiSSTxEU3uDCRzIIlz7Jr23w
+
+## API 4 /user/following/
+
+GET http://localhost:3000/user/following/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTI3NjE3NzR9.RrrSy6zW7wseUb6iKe4TiSSTxEU3uDCRzIIlz7Jr23w
+
+##API 5 
+GET http://localhost:3000/user/followers/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTEyNzY0OTR9.4N2iEpRmmGI5TWZnfI6h5arO3UjTcF2jOg8sjp0gKTc
+
+##API 6 
+GET http://localhost:3000/tweets/2/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTI3NjM2MjN9.Qdmr-0oLJIXMg5ytMDHSA9jiCxa5goY1ne8nh9aW6Ko
+
+## API 7 
+GET http://localhost:3000/tweets/:tweetId/likes/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzEwNzU1NzAwfQ.sHTv2nHYIEYnVz3XisJWTnwXh-UIDUvaXTlvIMB7ytg
+
+### API 8 
+GET http://localhost:3000/tweets/3/replies/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNzEwNzU1NzAwfQ.sHTv2nHYIEYnVz3XisJWTnwXh-UIDUvaXTlvIMB7ytg
+
+### API 9 
+GET http://localhost:3000/user/tweets/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTI3NjE3NzR9.RrrSy6zW7wseUb6iKe4TiSSTxEU3uDCRzIIlz7Jr23w
+
+## API 10
+GET http://localhost:3000/user/tweets/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTI3NjE3NzR9.RrrSy6zW7wseUb6iKe4TiSSTxEU3uDCRzIIlz7Jr23w
+
+## API 11
+
+GET http://localhost:3000/tweets/4/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwidXNlcklkIjoyLCJpYXQiOjE3MTEyNzYxNjZ9.8rlK58atK7aKPy-wJ2KP6Y8y1VVZuXQXvYHlxN1WBaM
+
